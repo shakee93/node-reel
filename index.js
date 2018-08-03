@@ -1,4 +1,4 @@
-const Reel = require('./reel')
+const Reel = require('./src/reel')
 
 module.exports.Reel = Reel;
 module.exports = (options) => {
