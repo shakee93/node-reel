@@ -128,6 +128,7 @@ class ReelFrequencies {
     }
 
     days(days) {
+	    let _days;
 
         if (Array.isArray(days)) {
             _days = days.join(',');
