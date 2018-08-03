@@ -14,27 +14,27 @@ class ReelFrequencies {
         return this.spliceIntoPosition(1, '*/10');
     }
 
-    weveryFifteenMinutes() {
+    everyFifteenMinutes() {
         return this.spliceIntoPosition(1, '*/15');
     }
 
-    weveryThirtyMinutes() {
+    everyThirtyMinutes() {
         return this.spliceIntoPosition(1, '0,30');
     }
 
-    whourly() {
+    hourly() {
         return this.spliceIntoPosition(1, 0);
     }
 
-    whourlyAt(offset) {
+    hourlyAt(offset) {
         return this.spliceIntoPosition(1, offset);
     }
 
-    wdaily() {
+    daily() {
         return this.spliceIntoPosition(1, 0).spliceIntoPosition(2, 0);
     }
 
-    wdailyAt(time) {
+    dailyAt(time) {
 
         let segments = time.split(':');
 
@@ -43,48 +43,48 @@ class ReelFrequencies {
     }
 
 
-    wtwiceDaily(first = 1, second = 13) {
+    twiceDaily(first = 1, second = 13) {
         let hours = first + ',' + second;
         return this.spliceIntoPosition(1, 0).spliceIntoPosition(2, hours);
     }
 
-    wweekdays() {
+    weekdays() {
         return this.spliceIntoPosition(5, '1-5');
     }
 
-    wweekends() {
+    weekends() {
         return this.spliceIntoPosition(5, '0,6');
     }
 
-    wmondays() {
+    mondays() {
         return this.days(1);
     }
 
-    wtuesdays() {
+    tuesdays() {
         return this.days(2);
     }
 
-    wwednesdays() {
+    wednesdays() {
         return this.days(3);
     }
 
-    wthursdays() {
+    thursdays() {
         return this.days(4);
     }
 
-    wfridays() {
+    fridays() {
         return this.days(5);
     }
 
-    wsaturdays() {
+    saturdays() {
         return this.days(6);
     }
 
-    wsundays() {
+    sundays() {
         return this.days(0);
     }
 
-    wweekly() {
+    weekly() {
         return this.spliceIntoPosition(1, 0)
         .spliceIntoPosition(2, 0)
         .spliceIntoPosition(5, 0);
