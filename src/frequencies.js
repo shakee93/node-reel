@@ -10,7 +10,7 @@ class ReelFrequencies {
         return this.spliceIntoPosition(1, '*/5');
     }
 
-    weveryTenMinutes() {
+    everyTenMinutes() {
         return this.spliceIntoPosition(1, '*/10');
     }
 
