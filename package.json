@@ -1,0 +1,18 @@
+{
+  "name": "node-reel",
+  "version": "1.0.0",
+  "description": "Human friendly cron for Node JS",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-cron": "^1.2.1"
+  },
+  "author": "shakee93",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shakee93/node-reel.git"
+  },
+  "license": "MIT"
+}
