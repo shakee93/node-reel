@@ -22,6 +22,10 @@ class ReelFrequencies {
         return this.spliceIntoPosition(1, '0,30');
     }
 
+    everyFortyFiveMinutes() {
+        return this.spliceIntoPosition(1, '0,45');
+    }
+
     hourly() {
         return this.spliceIntoPosition(1, 0);
     }

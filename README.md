@@ -32,6 +32,7 @@ Method  | Description
 `.everyTenMinutes();`  |  Run the task every ten minutes
 `.everyFifteenMinutes();`  |  Run the task every fifteen minutes
 `.everyThirtyMinutes();`  |  Run the task every thirty minutes
+`.everyFortyFiveMinutes();`  |  Run the task every forty five minutes
 `.hourly();`  |  Run the task every hour
 `.hourlyAt(17);`  |  Run the task every hour at 17 mins past the hour
 `.daily();`  |  Run the task every day at midnight
