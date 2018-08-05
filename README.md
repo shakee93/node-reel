@@ -2,6 +2,11 @@
 <img width="260" src="https://shakee93.github.io/vue-toasted/assets/images/node-reel.svg" alt="node-reel logo">
 <img src="https://user-images.githubusercontent.com/14835725/43674196-6f593114-97ed-11e8-80c1-d054391062d6.png" alt="node-reel logo">
 </p>
+<p align="center"> 
+
+[![npm](https://img.shields.io/npm/v/node-reel.svg?style=flat-square)](http://npmjs.com/package/node-reel)
+
+</p>
 
 **`node-reel`** is a heavily inspired by laravel task scheduler syntax thanks to [@taylorotwell](https://github.com/taylorotwell) and uses [`node-cron`](https://github.com/merencia/node-cron) by [merencia](https://github.com/merencia) as the default cron driver to run cron tasks.
 
