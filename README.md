@@ -60,6 +60,37 @@ Method  | Description
 
 link to laravel task scheduler doc : [task scheduler](https://laravel.com/docs/5.6/scheduling)
 
+### Methods
+Method  | Description
+------------- | -------------
+`.call(function)`  |  pass a callback which will triggered
+`.command(string/array);`  |  pass cli commands as string or array of strings
+`.run();`  |  call this at the end of the chain to initiate.
+
+
+### Adapters
+`node-reel` will use `node-cron` as default adapter. but you can pass your own adapter and return your own object.
+
+```javascript
+const Reel = require('node-reel').Reel;
+
+const reel = new Reel({
+    adapter : (object) => {
+    	// use your cron library or custom cron logic
+    	// below are the available properties
+    	let expression = object.expression;
+    	let callback = object.callback;
+    	let timezone = object.timezone;
+    	
+    	return mycron.schedule(expression, callback);
+    }
+})
+
+
+// use it as follows
+reel.command('npm run foo').hourly().run();
+```
+
 ### Notes
 issues, pull request and feedback are welcome !
 Happy Scheduling !!
