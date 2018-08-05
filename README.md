@@ -1,11 +1,11 @@
 <p align="center">
 <img width="260" src="https://shakee93.github.io/vue-toasted/assets/images/node-reel.svg" alt="node-reel logo">
-<img src="https://user-images.githubusercontent.com/14835725/43674196-6f593114-97ed-11e8-80c1-d054391062d6.png" alt="node-reel logo">
 </p>
-<p align="center"> 
-
-[![npm](https://img.shields.io/npm/v/node-reel.svg?style=flat-square)](http://npmjs.com/package/node-reel)
-
+<p align="center">
+<a href="http://npmjs.com/package/node-reel" rel="nofollow"><img src="https://camo.githubusercontent.com/62a0977219e4ff041365ce6c762e17f27a66b9d7/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6e6f64652d7265656c2e7376673f7374796c653d666c61742d737175617265" alt="npm" data-canonical-src="https://img.shields.io/npm/v/node-reel.svg?style=flat-square" style="max-width:100%;"></a>
+</p>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/14835725/43674196-6f593114-97ed-11e8-80c1-d054391062d6.png" alt="node-reel logo">
 </p>
 
 **`node-reel`** is a heavily inspired by laravel task scheduler syntax thanks to [@taylorotwell](https://github.com/taylorotwell) and uses [`node-cron`](https://github.com/merencia/node-cron) by [merencia](https://github.com/merencia) as the default cron driver to run cron tasks.
