@@ -95,7 +95,7 @@ reel.command('npm run foo').hourly().run();
 If you want to keep an on every execution and make sure they succeed or fail, or even if they execute at all, or make a report of each, you can:
 
 ```javascript
-reel().command('npm run clean_trash'(error) => {
+reel().command('npm run clean_trash', (error) => {
     if (error) {
 	// Handle the error
     } else {
